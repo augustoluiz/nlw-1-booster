@@ -1,0 +1,2 @@
+para rodar os scripts: npm run nome-do-script
+para abrir o visualizador do banco em sqlite -> Ctrl + Shift + P
