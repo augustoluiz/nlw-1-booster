@@ -21,6 +21,6 @@ app.use(routes)
 //middleware de arquivos estáticos
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000')
+app.listen(3333, () => {
+    console.log('Server is running on port 3333')
 }) 
