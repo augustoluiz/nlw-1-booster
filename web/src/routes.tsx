@@ -1,0 +1,18 @@
+import React from 'react'
+import { Route, BrowserRouter } from 'react-router-dom'
+
+import Home from './pages/Home'
+import CreatePoint from './pages/CreatePoint'
+
+//o exact={true} verifica as rotas
+
+const Routes = () => {
+    return (
+        <BrowserRouter>
+            <Route component={Home} path="/" exact={true}/>
+            <Route component={CreatePoint} path="/create-point"/>
+        </BrowserRouter>
+    )
+}
+
+export default Routes
